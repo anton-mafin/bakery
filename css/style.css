@@ -22,7 +22,7 @@ a {
   width: 100%;
   min-width: 1049px; }
 
-.header {
+header {
   /*width: 100%;*/
   padding: 0 150px;
   background-color: rgba(0, 0, 0, 0.3);
@@ -37,13 +37,13 @@ a {
   align-items: center;
   height: 70px;
   color: white; }
-  .header .logo {
+   header .logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     font-family: scriptina;
     font-size: 30px; }
-  .header nav {
+   header nav {
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: -webkit-box;
@@ -52,7 +52,7 @@ a {
     font-family: alegreya;
     font-size: 14px;
     text-transform: uppercase; }
-    .header nav li {
+     header nav li {
       display: -webkit-box;
       display: -ms-flexbox;
       display: -webkit-inline-box;
@@ -60,26 +60,26 @@ a {
       display: inline-flex;
       margin-right: 50px;
       color: white; }
-  .header div {
+   header div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex; }
-    .header div li {
+     header div li {
       display: -webkit-inline-box;
       display: -ms-inline-flexbox;
       display: inline-flex; }
-      .header div li .links {
+       header div li .links {
         background: url("../img/sprites.png") no-repeat;
         margin-left: 20px; }
-      .header div li .link1 {
+       header div li .link1 {
         background-position: 0 0;
         width: 16px;
         height: 13px; }
-      .header div li .link2 {
+       header div li .link2 {
         background-position: -17px 0;
         width: 8px;
         height: 15px; }
-      .header div li .link3 {
+       header div li .link3 {
         background-position: -28px 0;
         width: 14px;
         height: 16px; }
@@ -599,7 +599,7 @@ a {
         -ms-flex-align: center;
         align-items: center; }
 
-.footer {
+ footer {
   padding-top: 100px;
   padding-bottom: 50px;
   width: 100%;
@@ -610,21 +610,21 @@ a {
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-around; }
-  .footer .left_footer,
-  .footer .right_footer {
+   footer .left_footer,
+   footer .right_footer {
     width: 33%;
     border-top: 1px solid #bfbbb7;
     border-bottom: 1px solid #bfbbb7;
     padding: 20px 0; }
-    .footer .left_footer ul,
-    .footer .right_footer ul {
+     footer .left_footer ul,
+     footer .right_footer ul {
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -ms-flex-pack: distribute;
       justify-content: space-around; }
-      .footer .left_footer ul li,
-      .footer .right_footer ul li {
+       footer .left_footer ul li,
+       footer .right_footer ul li {
         list-style-type: none;
         display: -webkit-inline-box;
         display: -ms-inline-flexbox;
@@ -634,10 +634,10 @@ a {
         color: #56534c;
         text-transform: uppercase;
         font-weight: bold; }
-  .footer .gustoso {
+   footer .gustoso {
     font-family: scriptina;
     font-size: 40px; }
-    .footer .gustoso a {
+     footer .gustoso a {
       color: #56534c; }
 
 /*# sourceMappingURL=style.css.map */
