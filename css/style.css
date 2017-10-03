@@ -168,7 +168,7 @@ header div li .link3 {
 }
 
 .art_of_cakes {
-    height: 100vh;
+    //height: 100vh;
     width: 100%;
     min-height: 700px;
     display: -webkit-box;
@@ -286,9 +286,10 @@ header div li .link3 {
     background: url(../img/tastes.png) no-repeat center center;
     position: absolute;
     z-index: 999;
-    width: 520px;
-    height: 400px;
-    flex-wrap: no-wrap;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    flex-wrap: wrap;
 }
 .art_of_cakes .right_column .cake1,
 .art_of_cakes .right_column .cake2,
@@ -303,6 +304,7 @@ header div li .link3 {
 .art_of_cakes .right_column .cake1,
 .art_of_cakes .right_column .cake3 {
     margin-right: 10px;
+    margin-bottom: 10px;
 }
 .art_of_cakes .right_column .cake12 {
     margin-bottom: 10px;
@@ -326,7 +328,7 @@ header div li .link3 {
 }
 .breakfast {
     width: 100%;
-    height: 100vh;
+    //height: 100vh;
     min-height: 700px;
     background: url(../img/breakfast.jpg) no-repeat;
     background-color: grey;
@@ -474,6 +476,7 @@ header div li .link3 {
 .sandwich {
     width: 100%;
     background-color: #f3f1e9;
+    background: url('../img/town.png') no-repeat top center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -482,9 +485,8 @@ header div li .link3 {
     -ms-flex-direction: column;
     flex-direction: column;
 }
-.sandwich .top_cont {
-    position: relative;
-}
+
+
 .sandwich .top_cont h3 {
     text-align: center;
     font-family: alegreya-bold;
@@ -499,11 +501,6 @@ header div li .link3 {
     font-size: 14px;
     margin-top: 5px;
     text-transform: uppercase;
-}
-.sandwich .top_cont img {
-    position: absolute;
-    top: 0px;
-    right: 319px;
 }
 .sandwich .content {
     margin-top: 50px;
@@ -580,6 +577,9 @@ header div li .link3 {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
 }
 .sandwich .right_column .pic {
     position: relative;
@@ -723,3 +723,55 @@ footer .gustoso {
 footer .gustoso a {
     color: #56534c;
 }
+
+
+
+
+
+
+
+
+
+/*==========  Desktop First  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px){
+	/**/
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px){
+	.art_of_cakes .right_column .cake1,
+	.art_of_cakes .right_column .cake2,
+	.art_of_cakes .right_column .cake3,
+	.art_of_cakes .right_column .cake4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 200px;
+    height: 150px;
+	}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px){
+	/**/
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px){
+	/**/
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px){
+	/**/
+}
+
+
+
+
