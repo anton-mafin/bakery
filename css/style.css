@@ -35,7 +35,7 @@ a {
     background-color: #98968d;
     background: url("../img/header.png") no-repeat center center;
     background-size: cover;
-    position: relative;
+    //position: relative;
 }
 .top_content .center {
     padding-top: 150px;
@@ -539,6 +539,9 @@ header div li .link3 {
     -ms-flex-align: center;
     align-items: center;
 }
+.sandwich .content .left_column .sort3 {
+	margin-bottom: 40px;
+	}
 .sandwich .content .left_column .sort1 span,
 .sandwich .content .left_column .sort2 span,
 .sandwich .content .left_column .sort3 span {
